@@ -26,7 +26,7 @@ NSString * const NYTPhotosViewControllerWillDismissNotification = @"NYTPhotosVie
 NSString * const NYTPhotosViewControllerDidDismissNotification = @"NYTPhotosViewControllerDidDismissNotification";
 
 static const CGFloat NYTPhotosViewControllerOverlayAnimationDuration = 0.2;
-static const CGFloat NYTPhotosViewControllerInterPhotoSpacing = 16.0;
+static const CGFloat NYTPhotosViewControllerInterPhotoSpacing = 1.0;
 static const UIEdgeInsets NYTPhotosViewControllerCloseButtonImageInsets = {3, 0, -3, 0};
 
 @interface NYTPhotosViewController () <UIPageViewControllerDataSource, UIPageViewControllerDelegate, NYTPhotoViewControllerDelegate>
