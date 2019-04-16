@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |ss|
     ss.ios.resource_bundle = { s.name => ['NYTPhotoViewer/NYTPhotoViewer.bundle/*'] }
-    ss.source_files = 'NYTPhotoViewer/**/*.{h,m,swift}'
+    ss.source_files = 'Pod/Classes/**/*'
     ss.frameworks = 'UIKit', 'Foundation'
   end
 
